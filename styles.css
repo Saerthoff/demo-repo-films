@@ -1,0 +1,36 @@
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: nowrap;
+  justify-content: flex-end;
+  gap: 1rem;
+  list-style-type: none;
+  background-color: #8eb6ff;
+  margin-top: 0;
+  padding: 3rem;
+}
+
+ul li a {
+  background-color: #fffbe5;
+  padding: 1rem;
+  color: rgb(58, 58, 58);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+}
